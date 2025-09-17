@@ -5,7 +5,7 @@ This repository contains a Jupyter notebook and small utilities to fetch NASA PO
 ## Quick start (Linux/Windows with Anaconda)
 
 1. Clone:
-git clone https://github.com/YOUR_USERNAME/air_quality_forecast.git
+git clone https://github.com/rashimenon/atmos_repo/
 
 
 2. Create environment (recommended):
