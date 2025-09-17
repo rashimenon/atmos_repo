@@ -11,26 +11,31 @@ This repository provides a simple pipeline to **forecast PM2.5 air pollution in 
 ## 🚀 Quick Start (Windows/Linux with Anaconda)
 
 ### 1. Clone this repository
-bash
+```bash
 git clone https://github.com/YOUR_USERNAME/atmos_repo.git
 cd atmos_repo
+```
 ### 2. Install prerequisites
 (a) Install [Anaconda](https://www.anaconda.com/download)(skip if already installed).
 Make sure Anaconda is added to PATH.
 
 (b) Create and activate environment
+```bash
 conda create -n atmos python=3.10 -y
 conda activate atmos
-
+```
 (c) Install required packages
+```bash
 pip install -r requirements.txt
-
+```
 (d) Add kernel to Jupyter
+```bash
 python -m ipykernel install --user --name atmos --display-name "Python (atmos)"
-
+```
 ### 3. Run the notebook
+```bash
 jupyter lab
-
+```
 - Open notebooks/pm25_forecast.ipynb
 - Select kernel Python (atmos)
 - Run cells sequentially
