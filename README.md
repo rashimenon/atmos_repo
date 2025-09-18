@@ -30,6 +30,8 @@ pip install -r requirements.txt
 ```
 (d) Add kernel to Jupyter
 ```bash
+conda activate atmos
+conda install -c conda-forge ipykernel -y
 python -m ipykernel install --user --name atmos --display-name "Python (atmos)"
 ```
 ### 3. Run the notebook
