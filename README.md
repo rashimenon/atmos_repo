@@ -12,7 +12,7 @@ This repository provides a simple pipeline to **forecast PM2.5 air pollution in 
 
 ### 1. Clone this repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/atmos_repo.git
+git clone https://github.com/rashimenon/atmos_repo.git
 cd atmos_repo
 ```
 ### 2. Install prerequisites
